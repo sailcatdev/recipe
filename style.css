@@ -1,3 +1,15 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
     font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     background-color: #EDF4C2;
@@ -6,25 +18,42 @@ body {
     background-color: #EB5A3C;
     color: aliceblue;
     font-size: 28px;
-    margin:auto 10%;
     padding: 1px;
     text-align: center;
+    text-decoration: none;
+}
+.list li {
+    display: inline-block;
+    width: 210px;
 }
 
 .list {
     font-size: 22px;
+    margin: 12px auto;
+    text-align: center;
+}
+#list_text {
+    margin: -50px auto;
 }
 .title {
     text-align: left;
 }
 #homepage {
     background-color: #DF9755;
+    margin: 12px;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 700;
 }
-img {
+#list_img img {
     height: 210px;
     width: 210px;
 }
 
-a {
+#list_text a {
     text-decoration: none;
+    color: black;
+    background-color: #eb593c8e;
+    border-style: groove;
+    font-weight: 700;
 }
